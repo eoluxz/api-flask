@@ -16,5 +16,5 @@ def home():
 def listar_alunos():
     return jsonify(alunos)
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     app.run(port=5001)
